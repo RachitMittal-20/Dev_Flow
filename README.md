@@ -8,6 +8,25 @@ DevFlow turns a small set of engineering delivery metrics into a more usable sto
 2. Run `npm run dev`
 3. Open `http://localhost:3000`
 
+## Deploying on Render
+
+1. Deploy the repository root as a single Render Web Service.
+2. Use this build command:
+
+	```bash
+	npm install && cd frontend && npm install && npm run build
+	```
+
+3. Use this start command:
+
+	```bash
+	node backend/index.js
+	```
+
+4. Add `NODE_ENV=production` in Render environment variables.
+5. Keep the frontend API base as `/api`; the backend now serves the built frontend and the API from one URL.
+6. After deploy, open the single Render URL and it should load both the UI and API-backed data.
+
 ## Metrics Overview
 
 - Lead Time: Average days from PR opened to successful production deployment.
