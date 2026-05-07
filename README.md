@@ -1,6 +1,9 @@
 # DevFlow - Developer Productivity MVP
 
-DevFlow turns a small set of engineering delivery metrics into a more usable story for both individual contributors and managers. The app pairs raw numbers with interpretation, signals, and suggested next steps so the dashboard feels actionable instead of purely descriptive.
+DevFlow turns a small set of engineering delivery metrics into a more usable story for both individual contributors and managers. The app pairs raw numbers with interpretation, signals, and suggest[...]
+
+## Live Deployed Link
+https://dev-flow-gbsh.onrender.com
 
 ## How to Run
 
